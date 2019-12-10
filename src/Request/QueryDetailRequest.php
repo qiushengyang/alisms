@@ -5,7 +5,7 @@
  * Date: 2019/12/10
  * Time: 15:23
  */
-namespace Sms\Request;
+namespace AliSms\Request;
 
 class QueryDetailRequest extends Request {
     public $phoneNumber;

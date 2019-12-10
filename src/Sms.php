@@ -8,8 +8,8 @@
 namespace Sms;
 
 use EasySwoole\HttpClient\HttpClient;
-use Sms\Request\QueryDetailRequest;
-use Sms\Request\SendSmsRequest;
+use AliSms\Request\QueryDetailRequest;
+use AliSms\Request\SendSmsRequest;
 
 class Sms {
     private $errCode;

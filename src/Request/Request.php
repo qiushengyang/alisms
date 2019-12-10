@@ -5,7 +5,7 @@
  * Date: 2019/12/10
  * Time: 11:17
  */
-namespace Sms\Request;
+namespace AliSms\Request;
 
 
 class Request {

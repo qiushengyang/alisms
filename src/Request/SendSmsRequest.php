@@ -5,7 +5,7 @@
  * Date: 2019/12/10
  * Time: 11:37
  */
-namespace Sms\Request;
+namespace AliSms\Request;
 
 class SendSmsRequest extends Request {
     public $phoneNumbers;

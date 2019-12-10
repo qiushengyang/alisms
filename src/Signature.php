@@ -5,11 +5,11 @@
  * Date: 2019/12/10
  * Time: 11:03
  */
-namespace Sms;
+namespace AliSms;
 
 use function AlibabaCloud\Client\value;
-use Sms\Request\Request;
-use Sms\Request\SendSmsRequest;
+use AliSms\Request\Request;
+use AliSms\Request\SendSmsRequest;
 
 class Signature {
     public $request;
