@@ -1,0 +1,11 @@
+{
+    "name": "qsy/alisms",
+    "description": "EasySwoole阿里云sms",
+    "authors": [
+        {
+            "name": "shenyang",
+            "email": "601693643@qq.com"
+        }
+    ],
+    "require": {}
+}
