@@ -5,7 +5,7 @@
  * Date: 2019/12/10
  * Time: 14:05
  */
-namespace Sms;
+namespace AliSms;
 
 use EasySwoole\HttpClient\HttpClient;
 use AliSms\Request\QueryDetailRequest;
@@ -81,6 +81,11 @@ class Sms {
             return false;
         }
 
+    }
+
+    public function getErr() :array
+    {
+        return ['code'=>$this->errCode,'errMsg'=>$this->errMsg];
     }
 
     private function getClient() :HttpClient
